@@ -1,0 +1,58 @@
+<?php
+
+
+
+/**
+ * This class defines the structure of the 'blocFichierEnveloppe' table.
+ *
+ *
+ *
+ * This map class is used by Propel to do runtime db structure discovery.
+ * For example, the createSelectSql() method checks the type of a given column used in an
+ * ORDER BY clause to know whether it needs to apply SQL to make the ORDER BY case-insensitive
+ * (i.e. if it's a text column type).
+ *
+ * @package    propel.generator.mpe.map
+ */
+class CommonBlocFichierEnveloppeTableMap extends TableMap
+{
+
+    /**
+     * The (dot-path) name of this class
+     */
+    const CLASS_NAME = 'mpe.map.CommonBlocFichierEnveloppeTableMap';
+
+    /**
+     * Initialize the table attributes, columns and validators
+     * Relations are not initialized by this method since they are lazy loaded
+     *
+     * @return void
+     * @throws PropelException
+     */
+    public function initialize()
+    {
+        // attributes
+        $this->setName('blocFichierEnveloppe');
+        $this->setPhpName('CommonBlocFichierEnveloppe');
+        $this->setClassname('CommonBlocFichierEnveloppe');
+        $this->setPackage('mpe');
+        $this->setUseIdGenerator(true);
+        // columns
+        $this->addPrimaryKey('id_bloc_fichier', 'IdBlocFichier', 'INTEGER', true, null, null);
+        $this->addForeignPrimaryKey('organisme', 'Organisme', 'VARCHAR' , 'fichierEnveloppe', 'organisme', true, 30, '');
+        $this->addForeignKey('id_fichier', 'IdFichier', 'INTEGER', 'fichierEnveloppe', 'id_fichier', true, null, 0);
+        $this->addColumn('numero_ordre_bloc', 'NumeroOrdreBloc', 'INTEGER', true, 5, 0);
+        $this->addColumn('id_blob_chiffre', 'IdBlobChiffre', 'INTEGER', true, null, 0);
+        $this->addColumn('id_blob_dechiffre', 'IdBlobDechiffre', 'INTEGER', false, null, null);
+        // validators
+    } // initialize()
+
+    /**
+     * Build the RelationMap objects for this table relationships
+     */
+    public function buildRelations()
+    {
+        $this->addRelation('CommonFichierEnveloppe', 'CommonFichierEnveloppe', RelationMap::MANY_TO_ONE, array('id_fichier' => 'id_fichier', 'organisme' => 'organisme', ), null, null);
+    } // buildRelations()
+
+} // CommonBlocFichierEnveloppeTableMap

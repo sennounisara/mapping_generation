@@ -1,0 +1,55 @@
+
+X	php:S1142€"=This method has 10 returns, which is more than the 3 allowed.(ö®Ş²øÿÿÿÿ
+S	php:S1142º"=This method has 22 returns, which is more than the 3 allowed.(˜»®¯
+o	php:S3776¸"TRefactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.(Ëõíöøÿÿÿÿ
+o	php:S3776£	"TRefactor this function to reduce its Cognitive Complexity from 27 to the 15 allowed.(‚ÈÄíúÿÿÿÿ
+o	php:S3776¢"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(åÁé—ûÿÿÿÿ
+j	php:S3776Â"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(ÿÖß
+t	php:S1488®"^Immediately return this expression instead of assigning it to the temporary variable "$field".(âûˆ·
+z	php:S1488—"_Immediately return this expression instead of assigning it to the temporary variable "$result".(™ÎÖ¨ÿÿÿÿÿ
+‡	php:S1448"sClass "BaseCommonTypeProcedure" has 74 methods, which is greater than 20 authorized. Split it into smaller classes.(åáø"
+Ephp:S121¦"0Add curly braces around the nested statement(s).(¸¤–˜
+Jphp:S121§"0Add curly braces around the nested statement(s).(¥æ½ùÿÿÿÿ
+Ephp:S121¨"0Add curly braces around the nested statement(s).(Ï€
+Jphp:S121©"0Add curly braces around the nested statement(s).(şŠÌ¦ûÿÿÿÿ
+Jphp:S121ª"0Add curly braces around the nested statement(s).(Òÿ’ÿÿÿÿÿ
+Ephp:S121«"0Add curly braces around the nested statement(s).(ÑŸ†ƒ
+Dphp:S121¬"0Add curly braces around the nested statement(s).(Üª«f
+Ephp:S121­"0Add curly braces around the nested statement(s).(‡ÓæÚ
+Jphp:S121®"0Add curly braces around the nested statement(s).(šõ÷øÿÿÿÿ
+Jphp:S121¯"0Add curly braces around the nested statement(s).(èÍçùûÿÿÿÿ
+Ephp:S121°"0Add curly braces around the nested statement(s).(ÊÑ‹¯
+Jphp:S121±"0Add curly braces around the nested statement(s).(ä‰×şøÿÿÿÿ
+Ephp:S121²"0Add curly braces around the nested statement(s).(©¶Äô
+Jphp:S121³"0Add curly braces around the nested statement(s).(¨‡íëùÿÿÿÿ
+Jphp:S121´"0Add curly braces around the nested statement(s).(ççÍßùÿÿÿÿ
+Ephp:S121µ"0Add curly braces around the nested statement(s).(ÎÀõŒ
+Jphp:S121¶"0Add curly braces around the nested statement(s).(Ãú¥êÿÿÿÿÿ
+Jphp:S121·"0Add curly braces around the nested statement(s).(´ó ¶ûÿÿÿÿ
+Jphp:S121¸"0Add curly braces around the nested statement(s).(æáùüÿÿÿÿ
+Jphp:S121¹"0Add curly braces around the nested statement(s).(à½×ùÿÿÿÿ
+Ephp:S121º"0Add curly braces around the nested statement(s).(ƒë½¡
+Ephp:S121Æ"0Add curly braces around the nested statement(s).(âïÿÏ
+Ephp:S121Ç"0Add curly braces around the nested statement(s).(ãÊ•ı
+Ephp:S121È"0Add curly braces around the nested statement(s).(·Ñû°
+Ephp:S121É"0Add curly braces around the nested statement(s).(è÷¥ñ
+Ephp:S121Ê"0Add curly braces around the nested statement(s).(†­¹
+Ephp:S121Ë"0Add curly braces around the nested statement(s).(´Ğ§ê
+Jphp:S121Ì"0Add curly braces around the nested statement(s).(…ÀÔúÿÿÿÿ
+Ephp:S121Í"0Add curly braces around the nested statement(s).(áòÑó
+Ephp:S121Î"0Add curly braces around the nested statement(s).(Ô¯½
+Jphp:S121Ï"0Add curly braces around the nested statement(s).(‹å¬õùÿÿÿÿ
+Jphp:S121Ğ"0Add curly braces around the nested statement(s).(Ö£³¸ÿÿÿÿÿ
+Dphp:S121Ñ"0Add curly braces around the nested statement(s).(Ë¸ÍM
+Ephp:S121Ò"0Add curly braces around the nested statement(s).(Ôõ¡®
+Ephp:S121Ó"0Add curly braces around the nested statement(s).(â€È®
+Ephp:S121Ô"0Add curly braces around the nested statement(s).(¹Œ¢–
+Jphp:S121Õ"0Add curly braces around the nested statement(s).(€°„ôøÿÿÿÿ
+Ephp:S121Ö"0Add curly braces around the nested statement(s).(ïî
+Jphp:S121×"0Add curly braces around the nested statement(s).(®§±üÿÿÿÿ
+Jphp:S121Ø"0Add curly braces around the nested statement(s).(ÇÓüéûÿÿÿÿ
+Jphp:S121Ù"0Add curly braces around the nested statement(s).(ãº…Êşÿÿÿÿ
+Jphp:S121Ú"0Add curly braces around the nested statement(s).(ÌøŞüÿÿÿÿ
+’php:S138£	"xThis function "doInsert" has 158 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(‚ÈÄíúÿÿÿÿ
+Qphp:S131÷	"7Add a "case default" clause to this "switch" statement.(Ä¿”úÿÿÿÿ
+Qphp:S131Î"7Add a "case default" clause to this "switch" statement.(òô¯šøÿÿÿÿ

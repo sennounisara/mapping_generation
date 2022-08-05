@@ -1,0 +1,12 @@
+
+h	php:S1301‹"MReplace this "switch" statement with "if" statements to increase readability.(Ä¿”úÿÿÿÿ
+h	php:S1301Ö"MReplace this "switch" statement with "if" statements to increase readability.(òô¯šøÿÿÿÿ
+t	php:S1488‚"^Immediately return this expression instead of assigning it to the temporary variable "$field".(âûˆ·
+z	php:S1488²"_Immediately return this expression instead of assigning it to the temporary variable "$result".(™ÎÖ¨ÿÿÿÿÿ
+—	php:S1448"Class "BaseCommonTFormePrixPuHasRefVariation" has 34 methods, which is greater than 20 authorized. Split it into smaller classes.(íıÂ‚
+Jphp:S121õ"0Add curly braces around the nested statement(s).(ğŒÚøÿÿÿÿ
+Ephp:S121ö"0Add curly braces around the nested statement(s).(îÓº
+Jphp:S121‚"0Add curly braces around the nested statement(s).(÷¤Ö›ÿÿÿÿÿ
+Jphp:S121ƒ"0Add curly braces around the nested statement(s).(„š¦êøÿÿÿÿ
+Qphp:S131‹"7Add a "case default" clause to this "switch" statement.(Ä¿”úÿÿÿÿ
+Qphp:S131Ö"7Add a "case default" clause to this "switch" statement.(òô¯šøÿÿÿÿ

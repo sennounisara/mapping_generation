@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <propel>
+    <datasources default="EXECUTION">
+      <datasource id="EXECUTION">
+        <adapter>mysql</adapter> <!-- sqlite, mysql, mssql, oracle, or pgsql -->
+        <connection>
+          <dsn>mysql:host=localhost;dbname=execution_generation_db</dsn>
+          <user>root</user>
+          <password>root</password>
+        </connection>
+      </datasource>
+    </datasources>
+  </propel>
+</config>

@@ -1,0 +1,30 @@
++ '[' -z '' ']'
++ '[' -d /opt/propel/generator ']'
++ '[' -d /root/opt/propel/generator ']'
++ '[' -d /usr/local/propel/generator ']'
++ '[' -d /root/usr/propel/generator ']'
++ '[' -z '' ']'
++ PROPEL_GEN_HOME=var/www/html/mapping_generation/propel/generator
++ SOURCE=../bin/propel-gen
+++ dirname ../bin/propel-gen
++ PRG=../bin
++ '[' -h ../bin/propel-gen ']'
++++ dirname ../bin/propel-gen
+++ cd -P ../bin
+++ pwd
++ PRG=/var/www/html/mapping_generation/propel/generator/bin
+++ dirname /var/www/html/mapping_generation/propel/generator/bin
++ '[' -d /var/www/html/mapping_generation/propel/generator ']'
+++ dirname /var/www/html/mapping_generation/propel/generator/bin
++ PROPEL_GEN_HOME=/var/www/html/mapping_generation/propel/generator
++ export PROPEL_GEN_HOME
++ echo 'PROPEL_GEN_HOME: /var/www/html/mapping_generation/propel/generator'
++ echo ________________________________________________________________
++ '[' -f /var/www/html/mapping_generation/propel/generator/bin/phing.php ']'
++ export PHING_COMMAND=/var/www/html/mapping_generation/propel/generator/bin/phing.php
++ PHING_COMMAND=/var/www/html/mapping_generation/propel/generator/bin/phing.php
++ '[' -z /var/www/html/mapping_generation/propel/generator/bin/phing.php ']'
++ echo 'PHING_COMMAND: /var/www/html/mapping_generation/propel/generator/bin/phing.php'
++ echo ____________________________1____________________________________
++ '[' 1 = 1 ']'
++ /var/www/html/mapping_generation/propel/generator/bin/phing.php -f /var/www/html/mapping_generation/propel/generator/build.xml -Dusing.propel-gen=true -Dproject.dir= om
