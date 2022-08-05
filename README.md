@@ -36,3 +36,8 @@ Atexo_Config::setParameterIfNotExists('GENERATION_DB','nom_bdd_generation');
 ```
 
 ⚠️  __On présume que vous n'avez pas changé le préfix de la BDD par default, si non, modifier `matx` avec le préfix défini par le paramètre `DB_PREFIX`__
+
+Lancer la génération à partir de powershell
+
+./bin/propel-gen reverse
+./bin/propel-gen om
