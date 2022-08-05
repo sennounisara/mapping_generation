@@ -39,5 +39,5 @@ Atexo_Config::setParameterIfNotExists('GENERATION_DB','nom_bdd_generation');
 
 Lancer la génération à partir de powershell
 
-./bin/propel-gen reverse
+./bin/propel-gen reverse <br/>
 ./bin/propel-gen om
